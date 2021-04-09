@@ -13,6 +13,43 @@
 </head>
 
 <body>
+    <header>
+        Home Page
+
+    </header>
+    <main>
+        <h1>
+            Start Your Adventure
+        </h1>
+        <form id="sign-up">
+            <label for="name">
+                <input id="name" placeholder="Whats Your Name?" />
+            </label>
+            <fieldset>
+                <div>Choose your player</div>
+                <p id="player">
+                    <label>
+                        <input type="radio" name="character" required value="wizard">
+                        Wizard
+                    </label>
+                    <label>
+                        <input type="radio" name="character" required value="Elf">
+                        Elf
+                    </label>
+                    <label>
+                        <input type="radio" name="character" required value="cleric">
+                        Cleric
+                    </label>
+                    <label>
+                        <input type="radio" name="character" required value="ranger">
+                        Ranger
+                    </label>
+                </p>
+            </fieldset>
+            <button>Submit</button>
+        </form>
+    </main>
+
 
     <script type="module" src="./app.js"></script>
 </body>
